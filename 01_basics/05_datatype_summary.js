@@ -15,3 +15,7 @@ const myObj {
     name = "hello world"
     age  = 20
  } // this will return type object function
+
+ // stack gives a copy of the value we want to use , any changes made will be on the copied value
+ // heap gives the reference to the memory space any change made will directly reflect 
+ // on every place the value is used.
