@@ -1,0 +1,18 @@
+# javascript execution context => how js executes the files
+
+this first thing that is made is 'global execution context' .
+
+global execution context is stored in a variable 'this'
+
+there are three types of execution contexts 
+1> Global Execution context
+2> Functional execution context
+3> Eval execution context (used in Mongoose)
+
+there are two phases 
+1. memory creation phase 
+2. execution phase
+
+
+in the memory creation phase variables are created with undefined value
+and in the execution phase values are assigned to the variables
